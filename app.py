@@ -4,7 +4,7 @@ import pandas as pd
 import joblib
 
 # Load trained model
-model = joblib.load("model/model.pkl")
+model = joblib.load("model.pkl")
 
 st.title("BurnMeter: Precision Calorie Tracking")
 st.header("Calorie Burn Predictor")
