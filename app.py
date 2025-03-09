@@ -10,10 +10,10 @@ model = joblib.load("model.pkl")
 # Function to connect to MySQL database
 def get_db_connection():
     return mysql.connector.connect(
-        host="your_host",
-        user="your_user",
-        password="your_password",
-        database="your_database"
+        host="localhost",
+        user="root",
+        password="1234",
+        database="user_db"
     )
 
 # Function to authenticate user
